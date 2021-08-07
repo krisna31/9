@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech_Merch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- !header -->
+    <header class="header">
+      <div class="main">
+        <h2 class="judul">Tech Merch Shop</h2>
+        <p class="sub-judul">Phone And Laptop</p>
+      </div>
+      <div class="fitur p-1">
+        <h4 class="price">IDR 150K</h4>
+        <p class="item">Phone</p>
+      </div>
+      <div class="fitur p-2">
+        <h4 class="price">IDR 200K</h4>
+        <p class="item">Laptop</p>
+      </div>
+    </header>
+
+    <!-- !navbar -->
+    <nav class="menu">
+      <div class="menu-toggle">
+        <input type="checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="brand">
+        <h1>TechMerch</h1>
+      </div>
+      <ul class="menu-list">
+        <li><a href="">Home</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <!-- ! services -->
+    <section class="services">
+      <div class="service">
+        <div class="icon i-1">🍳</div>
+        <h3>Original</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat non illum neque doloremque qui cumque.</p>
+      </div>
+      <div class="service">
+        <div class="icon i-2">🎓</div>
+        <h3>High Quality</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat non illum neque doloremque qui cumque.</p>
+      </div>
+      <div class="service">
+        <div class="icon i-3">💻</div>
+        <h3>Tough Build</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat non illum neque doloremque qui cumque.</p>
+      </div>
+      <div class="service">
+        <div class="icon i-4">💲</div>
+        <h3>Cheap</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat non illum neque doloremque qui cumque.</p>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <h2 class="judul">Gallery</h3>
+        <img src="img/1.jpeg" alt=""><img src="img/2.jpg" alt=""><img src="img/3.jpg" alt=""><img src="img/4.jpg"
+          alt=""><img src="img/5.jpg" alt=""><img src="img/6.jpg" alt=""><img src="img/7.jpg" alt=""><img
+          src="img/8.jpg" alt=""><img src="img/9.jpg" alt=""><img src="img/10.jpg" alt="">
+    </section>
+
+
+
+
+
+
+
+  </div>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle input');
+    const nav = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', function () {
+      nav.classList.toggle('slide');
+    });</script>
+</body>
+
+</html>
